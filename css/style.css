@@ -4024,8 +4024,8 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 /* list style 08 */
 .list-style-08 li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 28px 0; }
 .list-style-08 li:last-child { padding-bottom: 0; }
-.list-style-08 li .label-new, .list-style-08 li .label-hot { background-color: #70a967; display: inline-block; vertical-align: middle; padding: 2px 9px; font-size: 10px; line-height: 15px; color: #fff; text-transform: uppercase; margin-left: 10px; border-radius: 1px; }
-.list-style-08 li .label-hot { background-color: #d74a3a; }
+.list-style-08 li .label-new, .list-style-08 li .label-hot { background-color: transparent; display: inline-block; vertical-align: middle; padding: 2px 9px; font-size: 16px; line-height: 15px; color: #fff; text-transform: uppercase; margin-left: 10px; border-radius: 1px; }
+.list-style-08 li .label-hot { background-color: transparent; }
 
 /* accordion style 01 */
 .accordion-style-01 .panel .panel-heading { padding: 5px 0; }
