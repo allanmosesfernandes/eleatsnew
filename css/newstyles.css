@@ -191,6 +191,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     padding: 0 30px;
+    height: 600px;
 }
 
 .card {
@@ -275,4 +276,7 @@
   */
 
 
-  
+  .brand-logo {
+    width: 100px;
+    height: 70px;
+  }
