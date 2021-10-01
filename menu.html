@@ -3,31 +3,48 @@
 
 <head>
     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        }); var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-NSGQ5QN');</script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NSGQ5QN');
+    </script>
     <!-- End Google Tag Manager -->
     <!-- Facebook Pixel Code -->
-<script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '4104586389660492');
-    fbq('track', 'PageView');
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '4104586389660492');
+        fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=4104586389660492&ev=PageView&noscript=1"
-    /></noscript>
+            src="https://www.facebook.com/tr?id=4104586389660492&ev=PageView&noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
     <title>EllEats </title>
     <meta charset="utf-8">
@@ -47,7 +64,8 @@
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/newstyles.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body data-mobile-nav-style="classic">
@@ -63,12 +81,12 @@
 
     <header>
         <div class="strip">
-           <p>
-            We are delivering! 🛵 <br>Tap on the phone to place Orders  📲
-           </p> 
+            <p>
+                Check out our Pasta menu! 🍝 <br>Tap on the phone to place Orders 📲
+            </p>
         </div>
-        <nav
-            class="navbar navbar-expand-lg navbar-dark bg-transparent header-light fixed-top navbar-boxed header-reverse-scroll" data-aos="fade-down" data-aos-duration="1000">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent header-light fixed-top navbar-boxed header-reverse-scroll"
+            data-aos="fade-down" data-aos-duration="1000">
             <div class="container-fluid nav-header-container">
                 <div class="col-auto col-sm-6 col-lg-2 mr-auto pl-lg-0">
                     <a class="navbar-brand" href="index.html">
@@ -123,67 +141,63 @@
         <a class="" href="tel:+919967666119"><span><img src="./assets/iphone-mockup.png" class="phonecall"></span></a>
     </div>
 
-    <section class="parallax p-0" data-parallax-background-ratio="0.5"
-        style="background-image: url('./assets/first-fold.jpg');" data-aos="fade-up" data-aos-duration="1000">
-        <div class="opacity-extra-medium-2 bg-extra-dark-gray"></div>
-        <div class="container position-relative">
-            <div class="row justify-content-center">
-                <div
-                    class="col-12 col-xl-8 col-md-10 col-lg-8 full-screen flex-column d-flex justify-content-center text-center md-landscape-h-600px">
-                    <div
-                        class="border-color-red-transparent border-all border-width-8px padding-7-half-rem-all lg-padding-4-half-rem-all xs-padding-2-rem-all">
-                        <i class="line-icon-French-Fries title-large-2 text-red margin-3-half-rem-bottom"
-                            style='opacity: 0!important;'></i>
-                        <h1
-                            class="title-large alt-font font-weight-600 text-white text-uppercase letter-spacing-minus-4px margin-3-half-rem-bottom mx-auto sm-letter-spacing-minus-1px">
-                            Lots to explore,
-
-                            <br /> less to spend.</h1>
-                        <span
-                            class="alt-font text-medium text-uppercase letter-spacing-3px text-white opacity-7 d-block">Explore
-                            your favorite Veg & Non-Veg Dishes
-
-                        </span>
-                    </div>
-                </div>
-                <div class="down-section text-center"><a href="#about" class="section-link up-down-ani"><i
-                            class="ti-mouse icon-small bounce text-white"></i></a></div>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./assets/pasta/IMG_0246.JPG" alt="pasta-images" loading="lazy">
             </div>
+            <div class="swiper-slide">
+                <img src="./assets/pasta/IMG_0247.JPG" alt="pasta-images" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/pasta/IMG_0248.JPG" alt="pasta-images" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/pasta/IMG_0249.JPG" alt="pasta-images" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/pasta/IMG_0250.JPG" alt="pasta-images" loading="lazy">
+            </div>
+
         </div>
-    </section>
-  
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    </div>
 
     <section class="scrollable-menu">
         <a href="./eltin.html">
             <div class="card 2">
                 <div class="card_image">
-                  <img src="./assets/pexels-francesco-paggiaro-604660 (1).jpg" />
-                  </div>
-                <div class="card_title title-white">
-                  <img src="./assets/elton-1 (1).png" class="brand-logo" alt='brand-logo'>
-                  
+                    <img src="./assets/pexels-francesco-paggiaro-604660 (1).jpg" />
                 </div>
-              </div>
+                <div class="card_title title-white">
+                    <img src="./assets/elton-1 (1).png" class="brand-logo" alt='brand-logo'>
+
+                </div>
+            </div>
         </a>
         <a href="./El Ex.html">
             <div class="card 3">
                 <div class="card_image">
-                  <img src="./assets/schezwan-veg-fried-rice-1_5f986624-850e-457f-ad2e-362e3508db96_1024x1024 (1).jpg" />          
-              </div>
+                    <img
+                        src="./assets/schezwan-veg-fried-rice-1_5f986624-850e-457f-ad2e-362e3508db96_1024x1024 (1).jpg" />
+                </div>
                 <div class="card_title  title-white">
                     <img src="./assets/elex-logo.png" class="brand-logo" alt='brand-logo'>
 
                 </div>
-              </div>
-        
+            </div>
+
         </a>
         <a href="./snacks-menu.html">
             <div class="card 1">
                 <div class="card_image"> <img src="./assets/burger.jpg" /> </div>
                 <div class="card_title title-white">
-                  <p>Snacks<span></span></p>
+                    <p>Snacks<span></span></p>
                 </div>
-              </div>
+            </div>
         </a>
 
     </section>
@@ -280,11 +294,28 @@
     <!-- javascript -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/theme-vendors.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>   
+    <script type="text/javascript" src="js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+
+            spaceBetween: 10,
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+                delay: 5000,
+            },
+        });
+    </script>
 </body>
 
-</html>    
+</html>
